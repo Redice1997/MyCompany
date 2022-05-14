@@ -3,9 +3,6 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using MyCompany.Domain.Entities;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace MyCompany.Domain
 {
@@ -27,8 +24,9 @@ namespace MyCompany.Domain
                 NormalizedName = "ADMIN"
             });
 
-            modelBuilder.Entity<IdentityUser>().HasData(new IdentityUser { 
-                Id = "",
+            modelBuilder.Entity<IdentityUser>().HasData(new IdentityUser
+            {
+                Id = "DEFEA8C9-FDF1-4841-8C5F-CEB57EC5B38D",
                 UserName = "admin",
                 NormalizedUserName = "ADMIN",
                 Email = "my@email.com",
