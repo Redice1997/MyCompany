@@ -10,10 +10,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\ViewComponents\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="bundleconfig.json" />
     <None Include="compilerconfig.json" />
     <None Include="wwwroot\js\ckeditor4\adapters\jquery.js" />
